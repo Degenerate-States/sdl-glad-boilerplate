@@ -1,5 +1,6 @@
 @echo off
 mkdir build
+xcopy.exe lib\SDL\lib\win64\SDL2.dll build
 pushd build
 cl -Zi ^
     ..\src\engine.cpp ..\lib\GLAD\src\glad.c^
