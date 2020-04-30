@@ -1,4 +1,5 @@
 engine.exe:
+	mkdir build &
 	cl -EHsc -Zi -FC \
 	src\* lib\GLAD\src\glad.c \
 	-I lib/SDL/include -I lib/GLAD/include \
