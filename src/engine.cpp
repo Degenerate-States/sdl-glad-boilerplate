@@ -2,7 +2,8 @@
 #include <SDL.h>
 #include <glad/glad.h>
 
-int main(int argc, char **argv) {
+#include "engine.h"
 
+int main(int argc, char **argv) {
     return 0;
 }

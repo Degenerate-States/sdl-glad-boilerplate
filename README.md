@@ -8,6 +8,8 @@ Engine-dev boilerplate for C++ on win64 with potential for other platforms
 #include <SDL.h>
 #include <glad/glad.h>
 
+#include "engine.h"
+
 int main(int argc, char **argv) {
     return 0;
 }
