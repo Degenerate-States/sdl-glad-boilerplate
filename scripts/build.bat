@@ -1,7 +1,7 @@
 @echo off
-mkdir build
-xcopy.exe lib\SDL\lib\win64\SDL2.dll build
+if not exist build mkdir build
 pushd build
+if not exist SDL2.dll xcopy ..\lib\SDL\lib\win64\SDL2.dll
 cl -EHsc -Zi -FC^
     ..\src\* ..\lib\GLAD\src\glad.c^
 	-Fe:engine.exe^
